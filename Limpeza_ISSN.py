@@ -7,8 +7,7 @@ df = pd.DataFrame(teste)
 lista_ISSN = list()
 
 for x in df.index:
-    ISSN = df.loc[x,"ISSN"]
-    print(x)  
+    ISSN = df.loc[x,"ISSN"]      
     if ISSN not in lista_ISSN:
         lista_ISSN.append(ISSN)        
     else:
