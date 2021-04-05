@@ -13,4 +13,4 @@ for x in df.index:
     else:
         df.drop(x, inplace = True)
     
-df.to_excel (r'Nomes.xlsx',index = False)
+df.to_excel (r'Titulos.xlsx',index = False)

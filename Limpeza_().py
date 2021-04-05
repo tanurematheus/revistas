@@ -1,6 +1,6 @@
 import pandas as pd
 
-teste = pd.read_excel('Nomes.xlsx')
+teste = pd.read_excel('Titulos.xlsx')
 
 df = pd.DataFrame(teste)
 
@@ -15,4 +15,4 @@ for x in df.index:
     else:
         df.drop(x, inplace = True)
     
-df.to_excel (r'Nomes_Parenteses.xlsx',index = False)
+df.to_excel (r'Titulos_Sem_Parentesis.xlsx',index = False)

@@ -1,6 +1,6 @@
 import pandas as pd
 
-teste = pd.read_excel('teste.xlsx')
+teste = pd.read_excel('Qualis_Antigo_ISSN.xlsx')
 
 df = pd.DataFrame(teste)
 

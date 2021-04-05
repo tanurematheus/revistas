@@ -1,6 +1,6 @@
 import pandas as pd
 
-teste = pd.read_excel('Qualis_Antigo_x_Qualis_Novo.xlsx')
+teste = pd.read_excel('Questao.xlsx')
 
 s = pd.Series(teste['Qualise_Novo'])
 
