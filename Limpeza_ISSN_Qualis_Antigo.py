@@ -1,6 +1,6 @@
 import pandas as pd
 
-teste = pd.read_excel('Qualis_Antigo_ISSN.xlsx')
+teste = pd.read_excel('Base_Qualis_Antigo_ISSN.xlsx')
 
 df = pd.DataFrame(teste)
 
@@ -13,4 +13,4 @@ for x in df.index:
     else:
         df.drop(x, inplace = True)
     
-df.to_excel (r'ISSN.xlsx',index = False)
+df.to_excel (r'Qualis_Antigo_ISSN.xlsx',index = True)
