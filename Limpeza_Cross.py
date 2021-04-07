@@ -6,7 +6,9 @@ df = pd.DataFrame(base)
 
 x=0
 
-while x <= len(df.index): 
+z = len(df.index)-1
+
+while x < z: 
     
     titulo = df.loc[x,'Título']
     titulo2 = df.loc[x+1,'Título']
